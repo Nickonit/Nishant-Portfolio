@@ -2,7 +2,7 @@ import "./styles/Career.css";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <div className="career-section section-container" id= "career">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -15,10 +15,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Backend Developer</h4>
+                <h5>RipenApps</h5>
               </div>
-              <h3>2020</h3>
+              <h3>2018</h3>
             </div>
             <p>
               Built 6+ complete applications using React.js. Integrated backend
@@ -29,10 +29,24 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Full Stack Developer</h4>
+                <h5>Crownstack</h5>
               </div>
-              <h3>2021</h3>
+              <h3>2020</h3>
+            </div>
+            <p>
+              Led two development teams on Mpro, a large-scale insurance
+              operations platform. Developed multiple modules using React.js &
+              migrated critical functionalities to Node.js microservices.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Backend Developer</h4>
+                <h5>R Systems</h5>
+              </div>
+              <h3>2022</h3>
             </div>
             <p>
               Led two development teams on Mpro, a large-scale insurance
